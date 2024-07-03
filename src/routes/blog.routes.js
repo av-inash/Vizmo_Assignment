@@ -1,5 +1,5 @@
 const express = require("express");
-// const userValidation = require("../validations/user.validation.js");
+
 const { allBlogs, getPerticularBlog, getblogByFilter, updateBlog, deleteBlog, createNewBlog } = require("../controllers/blog.controller.js");
 
 const { verifyJwt } = require("../middlewares/auth.middleware.js")

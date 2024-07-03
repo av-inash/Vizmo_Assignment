@@ -19,8 +19,8 @@ class BlogService {
         return blog
     }
     createBlog = async (req, data) => {
-        console.log("hiiiii")
-        console.log("data", data)
+
+        // console.log("data", data)
         const blog = new Blog({
 
             title: data.title,
